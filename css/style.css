@@ -1,0 +1,448 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;1,100&family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
+*{
+    margin: 0;
+}
+
+
+/*#4682B4*/
+body{
+   background-color: #EDE6DB;
+   color: white;
+   width: 100%;
+   min-height: 100vh;
+   margin: auto;
+
+}
+
+#corpo{
+    width: 80%;
+    height: auto;
+    position: relative;
+    margin: 0 auto 0 auto;
+}
+
+#menu{
+    border-radius: 8px;
+}
+#Cabeçalho img{
+    margin: 50px auto 0 auto;
+    
+}
+
+#capa {
+    background-color: rgba(255, 255, 255, 0.189);
+    border-radius: 15px;
+}
+
+#menu ul {
+    text-align: center;
+    text-decoration: none;
+    background-color: #1D5C63;
+    padding: 20px;
+    margin-top: 0px;
+    border-radius: 5px;
+}
+
+
+.itens-menu {
+    padding: 8px;
+    margin: 5px auto 5px auto;
+
+}
+
+.itens-menu:hover {
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.itens-menu a {
+    text-decoration: none;
+    color: aliceblue;
+    font-family: 'Lato', sans-serif;
+}
+
+#introducao{
+    margin-top: 80px;
+}
+
+#introducao h1{
+    color: black;
+    font-size: 70px;
+    font-family: 'Lato', sans-serif;
+}
+
+#introducao h2{
+    color: black;
+    font-size: 35px;
+    margin-top: 20px;
+    font-family: 'Lato', sans-serif;
+}
+
+#quem-sou-eu {
+    text-align: justify;
+    font-size: 22px;
+    display: flex;
+    margin-top: 10%;
+    background-color: #1D5C63;
+    border-radius: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 10px;
+    box-shadow: 0px 0px 5px  #417D7A;
+}
+
+#quem-sou-eu:hover{
+    box-shadow: 5px 5px #417D7A ;
+    transition: 2s;
+    opacity: 1.2 ;
+}
+
+#quem-sou-eu p{
+    margin: 10px;
+}
+
+.center-text{
+    text-align: center;
+}
+
+#text-eu {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#logo{
+    margin: 58px
+}
+
+#logo img {
+    border-radius: 100%;
+}
+
+#logo img:hover{
+    box-shadow:8px 5px #417D7A ;
+    transition: 0.5s;
+}
+
+#img-quem-sou-eu img {
+    border-radius: 100%;
+}
+
+#img-quem-sou-eu {
+    margin: auto 0 auto 0;
+}
+
+#projetos {
+    margin-top: 200px;
+}
+
+#projetos h1{
+    font-size: 2.5em;
+    
+}
+
+#projetos {
+    background-color: #1D5C63;
+    padding: 40px;
+    border-radius: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+    box-shadow: 0px 0px 20px  #1D5C63;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#projetos:hover {
+        box-shadow: 10px 5px #1D5C63 ;
+        transition: 2s;
+        opacity: 1.2 ;
+}
+
+#img-projetos{
+    display: flex;
+    width: max-content;
+    margin: 30px auto 10px auto;
+}
+
+.itens-projetos {
+    margin-left: 28px;
+    width: 100%;
+    text-align: center;
+    
+}
+
+#img1 img:hover{
+    width: 210px;
+    height: 210px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px #1A3C40;
+}
+
+#img2 img:hover{
+    width: 210px;
+    height: 210px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px #1A3C40;
+}
+
+#img3 img:hover{
+    width: 210px;
+    height: 210px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px #1A3C40;
+}
+
+
+#img4 img:hover{
+    width: 210px;
+    height: 210px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px #1A3C40;
+}
+
+
+
+/*Formulário*/
+
+.container-form{
+    background-color: #1D5C63;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    width: max-content;
+    margin: 50px auto 0 auto;
+    font-family: 'Josefin Sans', sans-serif;
+    display: flex;
+}
+
+.header{
+    padding: 20px;
+    text-align: center;
+}
+
+.form{
+    padding: 20px;
+}
+
+.form button{
+    width: 200px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: #EDE6DB;
+    border: none;
+}
+
+
+
+#textarea{
+    border-radius: 10px;
+    width: 380px;
+    height: 90px;
+}
+
+.form-control{
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    
+}
+
+.form-control label{
+    display: inline-block;
+    margin-bottom: 5px;
+    margin: 10px;
+}
+
+.form-control input{
+    border-radius: 10px;
+    border: 2px solid #f0f0f0;
+    font-size: 14px;
+    width: 90%;
+    padding: 10px;
+    
+}
+
+.form-control small {
+    color: #ff5252;
+    font-size: 17px;
+    font-weight: bold;
+    padding-top: 10px;
+    visibility: visible;
+}
+
+.form-control button{
+    margin-left: 28%;
+    padding: 10px;
+    width: 150px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.img-form {
+    width: max-content;
+    margin: auto 20px auto 20px;
+}
+
+.img-form img{
+    border-radius: 30%;
+}
+
+
+/*error end success*/
+
+.form-control.success input{
+    border: 2px solid #5eff02;
+}
+
+.form-control.error input {
+    border: 1px solid #f15d5d;
+}
+
+.form-control.error small {
+    visibility: visible;
+}
+
+
+
+#enviar {
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    opacity: 0.8;
+}
+
+#enviar:hover {
+    opacity: 1;
+}
+
+#mae-redeSocial {
+    margin-top:80px ;
+    background-color: #1D5C63;
+    border-radius: 10px;
+}
+
+#sec-redeSocial {
+    width: max-content;
+    display: flex;
+    margin-left: 80%;
+}
+
+#mae-redeSocial img {
+    margin: 10px 5px 5px 5px;
+}
+
+/* página formação*/
+
+.cursos{
+    width: 100%;
+    height: auto;
+    background-color: #417D7A;
+    margin-top: 40px;
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-bottom: 80px ;
+    margin-bottom: 50px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+.lista {
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.itens-lista {
+    font-size: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    padding: 8px;
+}
+
+.pdf {
+    width: 1000px;
+    height: 1000px;
+    margin: 30px auto 0 auto;
+}
+
+.pdf embed {
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+#mae-Formações{
+    width: max-content;
+    height: auto;
+    margin: 0 auto 0 auto;
+    background-color: #ffff;
+    border-radius: 10px;
+    padding: 20px 10px 20px 25px;
+    border: 1px solid black;
+    color: black
+
+}
+
+#Logo-Alura{
+    width: max-content;
+    margin: 0 auto 0 auto;
+}
+
+.formatacao-text p{
+ margin-bottom: 8px;
+ margin-left: 7px;
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+.formatacao-text p:hover{
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.formatacao-text h2:hover{
+   font-size: 30px;
+}
+
+.formatacao-text h2 {
+    margin-bottom:15px ;
+    margin-top: 20px;
+}
+
+#Formacao-SQL h2{
+    border-left: 5px solid #047e45;
+    padding-left: 2px;
+}
+
+#front-end h2{
+    border-left: 5px solid #41c3ff;
+    padding-left: 2px;
+}
+
+#devops h2{
+    border-left: 5px solid #fa3434;
+    padding-left: 2px;
+}
+
+#DataScience h2{
+    border-left: 5px solid #047e45;
+    padding-left: 2px;
+}
+
+#inovaçãoegestão h2{
+    border-left: 5px solid #ff9028;
+    padding-left: 2px;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+    background-color:cadetblue;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    width: 6px;
+    background-color: #4169E1;
+    border-radius: 5px;
+}
